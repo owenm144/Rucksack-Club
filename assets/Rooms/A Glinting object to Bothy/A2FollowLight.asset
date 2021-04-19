@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f3f07f47bd4735b852927d649f4d9, type: 3}
+  m_Name: A2FollowLight
+  m_EditorClassIdentifier: 
+  description: 'You walk into the woods and pass a few indistinct trees.
+
+    You can see a clearing up ahead in the distance, bathed in moonlight.'
+  roomName: A2FollowLight
+  sceneImg: {fileID: 21300000, guid: ac96a7150b92d46a6bcf8ea7e6defc0d, type: 3}
+  sceneAnim: {fileID: 0}
+  options:
+  - pathDescription: Keep walking
+    nextScene: {fileID: 11400000, guid: 58c497bd38bc040a4a2223057c8ac0aa, type: 2}

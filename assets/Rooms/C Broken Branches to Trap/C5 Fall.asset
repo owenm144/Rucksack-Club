@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f3f07f47bd4735b852927d649f4d9, type: 3}
+  m_Name: C5 Fall
+  m_EditorClassIdentifier: 
+  description: "You keep pacing round the clearing of hacked trees. \nThe ground is
+    littered with leaves, broken branches and debris.\n\nYou take a step and a searing
+    pain shoots up your leg.\nYour momentum causes you to fall forwards, twisting
+    your leg with a snap.\n\nThe animal trap clamped into your bloody leg makes you
+    feel sick.\nYou lay there, in agonising pain...\nYou pass out."
+  roomName: C5 Fall
+  sceneImg: {fileID: 21300000, guid: 892bd569acce548739bbf37acfa350a4, type: 3}
+  sceneAnim: {fileID: 0}
+  options:
+  - pathDescription: Continue
+    nextScene: {fileID: 11400000, guid: 1a60d12ed30ae4907bacce7c825be4f3, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f3f07f47bd4735b852927d649f4d9, type: 3}
+  m_Name: A3 BothyClearing
+  m_EditorClassIdentifier: 
+  description: 'You reach the clearing, and you see a small bothy at the opposite
+    edge of the clearing.
+
+    A light flashes out of the corner of your eye.
+
+
+    Another light flashes to your opposite side
+
+
+    Two lights flash inside the bothy
+
+
+    Clearly someone is messing with you,'
+  roomName: A3 BothyClearing
+  sceneImg: {fileID: 21300000, guid: 10ecdd0eeb88e49eba65fee657c0c8e4, type: 3}
+  sceneAnim: {fileID: 9100000, guid: a161dc7a082b548898ae7264bfd538b4, type: 2}
+  options:
+  - pathDescription: Investigate the Bothy
+    nextScene: {fileID: 11400000, guid: f1748ebf821bf45d89914467cb44fd00, type: 2}
+  - pathDescription: Call Out to the Bothy
+    nextScene: {fileID: 11400000, guid: 88cbd9458ed9b484da18118a525f7427, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f3f07f47bd4735b852927d649f4d9, type: 3}
+  m_Name: B2 Noise
+  m_EditorClassIdentifier: 
+  description: 'You head further into the woods and look around at the increasingly
+    dense forest.
+
+    You glance back and can still see the campfire flickering in the distance
+
+'
+  roomName: B2 Noise
+  sceneImg: {fileID: 21300000, guid: 4b5fab04f9701476da7c4dd8eb5e6284, type: 3}
+  sceneAnim: {fileID: 0}
+  options:
+  - pathDescription: Keep going...
+    nextScene: {fileID: 11400000, guid: 4ad90e8388a514bef93129413beefdf0, type: 2}

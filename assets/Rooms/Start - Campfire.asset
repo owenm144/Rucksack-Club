@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f3f07f47bd4735b852927d649f4d9, type: 3}
+  m_Name: Start - Campfire
+  m_EditorClassIdentifier: 
+  description: "You come to.\nYou're sitting around a warm campfire...\n\nYou just
+    must have just nodded off, you can tell you're very tired and weary.\nAs you look
+    around, you realise there's no one else here, but there are tents, sleepingbags,
+    mugs. \nBelongings. But no people.\n\nLooking futher than around the vicinity
+    of the campire you spot some things..."
+  roomName: Start - Campfire
+  sceneImg: {fileID: 21300000, guid: 3a4eae221ca624000a7b85f85f8bbe6e, type: 3}
+  sceneAnim: {fileID: 9100000, guid: 97a50d758410c4a61a7eee9d362b7d8f, type: 2}
+  options:
+  - pathDescription: Glinting Object
+    nextScene: {fileID: 11400000, guid: 4e2be8988a8f24e1a986e3e618a4af5f, type: 2}
+  - pathDescription: Tent
+    nextScene: {fileID: 11400000, guid: fc841e71cf0604cb0b55cfc55d98de52, type: 2}
+  - pathDescription: Broken Branches
+    nextScene: {fileID: 11400000, guid: da3fbdf29bb464e54ad6eb2a1bdbff07, type: 2}
+  - pathDescription: Footsteps
+    nextScene: {fileID: 11400000, guid: 4760d06be93dd4b75ae31668d9a1afcb, type: 2}
